@@ -24,6 +24,7 @@
     * [Comment](#comment)
     * [Share](#share)
     * [Search engines](#search-engines)
+    * [Compress CSS and JS files](#compress-css-js)
     * [CNAME](#cname)
     * [Put in a Jalpc Plug](#put-in-a-jalpc-plug)
     * [Enjoy](#enjoy)
@@ -66,23 +67,24 @@ The _config.yml located in the root of the jalpc_jekyll_theme directory contains
 
 ``` yml
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
-
-baseurl: "/"
-url: "http://www.jack003.com"
+title: Jalpc
+description: Jack's blog,use Jekyll and github pages.
+keywords: 'Jack,Jalpc,blog,Jekyll,github,gh-pages'
+baseurl: ''
+url: 'http://www.jack003.com'
 # url: "http://127.0.0.1:4000"
+img_path: '/static/assets/img/blog'
 
 # author
 author:
   name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
+  first_name: 'Kun'
+  last_name: 'Jia'
+  cv: 'http://cv.jack003.com'
   email: 'me@jack003.com'
   facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  avatar: 'static/img/landing/Jack.jpg'
+  github_username: 'JiaKunUp'
+  avatar: '/static/img/landing/Jack.jpg'
 ...
 ```
 
@@ -125,7 +127,7 @@ Now you can navigate to localhost:4000 in your browser to see the site.
 
 ### <a name="using-github-pages"></a>Using Github Pages
 
-You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com) for more information.
+You can host your Jekyll site for free with Github Pages. Click [here](https://pages.github.com) for more information.
 
 A configuration tweak if you're using a gh-pages sub-folder
 
@@ -134,27 +136,26 @@ In addition to your github-username.github.io repo that maps to the root url, yo
 This will require you to modify the _config.yml like so:
 
 ``` yml
-# Welcome to Jekyll!
-
-# Site settings
+# Website settings
 title: Website Name
-
-baseurl: "/"
-url: "http://github-username.github.io"
+description: Website description
+keywords: 'Website keywords'
+baseurl: '' # if you have suburl as homepage like '/homepage', please change it to '/homepage'
+url: 'https://github-username.github.io'
 # url: "http://127.0.0.1:4000"
+img_path: '/static/assets/img/blog'
 
 # author
 author:
-  name: nickname
-  first_name: firstname
-  last_name: lastname
-  email: your_email@example.com
-  facebook_username: facebook_example
-  github_username: 'github_example'
-  head_img: 'path/of/head/img'
-
-# blog img path
-img_path: '/path/of/blog/img/'
+  name: 'Jack'
+  first_name: 'Kun'
+  last_name: 'Jia'
+  cv: 'http://cv.jack003.com'
+  email: 'me@jack003.com'
+  facebook_username: 'jiakunnj'
+  github_username: 'JiaKunUp'
+  avatar: '/static/img/landing/Jack.jpg'
+...
 ```
 
 If you start server on localhost, you can turn on `# url: "http://127.0.0.1:4000"`.
@@ -184,8 +185,6 @@ For example: URL is `http://127.0.0.1:4000/python/`. In `_data/blog.yml`, we def
             {% assign counter = counter | plus: 1 %}
             <li>
 ```
-
-
 
 ### <a name="pagination"></a>Pagination
 
@@ -287,6 +286,31 @@ I use javascript to realize blog search,you can double click `Ctrl` or click the
 Just use it.
 
 ![search](readme_files/search.gif)
+
+### <a name="compress-css-js"></a>Compress CSS and JS files
+
+All CSS and JS files are compressed at `/static/assets`.
+
+I use [UglifyJS2](https://github.com/mishoo/UglifyJS2) and [clean-css](https://github.com/jakubpawlowicz/clean-css) to compress CSS and JS files. If you want to custom CSS and JS files, you need to do the following:
+
+1. Install **UglifyJS2** and **clean-css**: `npm install -g uglifyjs; npm install -g clean-css`, then run `npm install` at root dir of project.
+2. Compress script is **build.js**, index page has its own CSS and JS compressed files, they are :
+  * **app-index-xxx.min.css**
+  * **app-index-xxx.min.js**
+  * **i18-xxx.min.js**
+
+  other pages are
+  * **app-xxx.min.css**
+  * **app-xxx.min.js**
+  * **jPage-xxx.min.js**
+
+  404 page are
+  * **fof-xxx.min.css**
+  * **fof-xxx.min.js**
+
+  **xxx** is date when you compress your files.
+3. If you want to add/remove CSS/JS files, just edit **build.js**, and run `npm run compress` at root dir of project.
+4. At last, edit `_includes/head.html` and `_includes/index_head.html` change CSS and JS files link to you generated just now.
 
 ### <a name="cname"></a>CNAME
 
