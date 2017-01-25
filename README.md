@@ -352,6 +352,8 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 * [i18next](http://i18next.github.io/i18next)
 * [pixyll](https://github.com/johnotander)
 * [androiddevelop](https://github.com/androiddevelop)
+* [UglifyJS2](https://github.com/mishoo/UglifyJS2)
+* [clean-css](https://github.com/jakubpawlowicz/clean-css)
 
 ## <a name="contributing"></a>Contributing
 
