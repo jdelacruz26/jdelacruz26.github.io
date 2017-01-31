@@ -1,48 +1,48 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Jalpc
-description: Jack's blog,use Jekyll and github pages.
-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
+title: Jorge Enrique
+description: Jorges's blog,use Jekyll and github pages.
+keywords: Jorge,blog,Jekyll,github,gh-pages
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage'
-url: http://www.jack003.com  # url should be changed to 'http://www.jack003.com/homepage' as before
+url:  # url should be changed to 'http://www.jack003.com/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /static/assets/img/blog  # url should be changed to '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Jack  # Be used at blog posts' author.
-  first_name: Kun  # Be used at index page about me section.
-  last_name: Jia  # Be used at index page about me section.
-  cv: http://cv.jack003.com  # A online CV can be printed as PDF, leave blank if you don't have now
-  email: me@jack003.com  # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  github_username: JiaKunUp  # Leave blank if you don't have now
-  avatar: /static/assets/img/landing/Jack.jpg  # upload your avatar at directory and edit it.
+  name: Jorge Enrique # Be used at blog posts' author.
+  first_name: Jorge  # Be used at index page about me section.
+  last_name: De La Cruz  # Be used at index page about me section.
+  cv: #http://cv.jack003  # A online CV can be printed as PDF, leave blank if you don't have now
+  email: jorge.cruz.arcia@rwth-aachen.de  # Leave blank if you don't have now
+  facebook_username: #jiakunnj  # Leave blank if you don't have now
+  github_username: jdelacruz26  # Leave blank if you don't have now
+  avatar: /static/assets/img/landing/profile.png  # upload your avatar at directory and edit it.
   skill_icon1:
     - name: icon-python
-    - name: icon-shell
+    - name: icon-c++
   skill_icon2:
     - name: icon-angular
     - name: icon-docker
-  desc: I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.
+  desc: Soy Ingeniero Mecánico, pero interesado por todas las disciplinas de la Ingeniería y de otras ramas del conociento. Creo que nunca debemos reusarnos a continuar aprendiendo ya sea en tu área de especialización o cualquier otra. ¡Por lo cual trato de aprender algo nuevo cada día!
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+  #name: jalpc
+  #public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-73784599-1
+  id: UA-91138706-1
 
 ## growingIO
 gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
   # id: a49d4901c7853da9
 
 ## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 
 # Build settings
