@@ -26,7 +26,7 @@
     i18n: research2_date
   job:
     detail: Work
-    i18n: research2_job
+    i18n: research2_jobs
   icon: fa-search-plus
 
 - name:
