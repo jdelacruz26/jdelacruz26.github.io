@@ -21,7 +21,7 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/profile.png  # upload your avatar at directory and edit it.
   skill_icon1:
     - name: icon-python
-    - name: icon-c++
+    - name: icon-c
   skill_icon2:
     - name: icon-angular
     - name: icon-docker

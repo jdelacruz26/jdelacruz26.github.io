@@ -5,9 +5,9 @@
   "nav":{
     "home": "Inicio",
     "about_me": "Sobre mi",
-    "skills": "Destrezas",
-    "projects": "Projectos",
-    "career": "Carrera",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "career": "Experiencia Profesional",
     "blog": "Blog",
     "link": "Enlace"
   },
