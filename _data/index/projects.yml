@@ -3,10 +3,10 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Saplatform
   i18n: saplatform
-  gh_user: JiaKunUp
-  repo: saplatform
+  gh_user: delacruz26
+  repo: scsmods
   img: /static/assets/img/landing/saplatform.png
-  desc: Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.
+  desc: Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer
 
 - name: Jalpc
   i18n: jalpc
