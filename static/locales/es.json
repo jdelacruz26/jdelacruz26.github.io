@@ -16,19 +16,15 @@
     "des": "Soy Ingeniero Mecánico, pero interesado por todas las disciplinas de la Ingeniería y de otras ramas del conociento. Creo que nunca debemos reusarnos a continuar aprendiendo ya sea en tu área de especialización o cualquier otra. ¡Por lo cual trato de aprender algo nuevo cada día!"
   },
   "skills":{
-    "my_skills": "Mis Destrezas"
+    "my_skills": "Habilidades"
   },
   "projects":{
-    "my_projects": "Mis Projectos",
-    "sccsmods": "Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer",
-    "arduino": "Código para aplicaciones en arduino",
-    "angularjs": "这是一个Angularjs写的前端应用，使用Jelyll部署在github的gh-pages上，后台使用Leancloud，你也可以使用Parse。",
-    "rsser": "Rsser是一个Ionic应用，在这个应用下，我们可以自由的阅读新闻和文章，你可以从给定的列表中添加rss地址也可以手动添加。",
-    "leetcode": "LeetCode是一个值得学习的算法题的网站，这是kamyu104的项目，我fork他的项目增加了新的解法，如果你喜欢Python你可以从这个项目中找到乐趣。",
-    "familycode": "这是一个销售基因检测产品的微信商城。我使用Django和jQuery weui写这个项目. 这是明码的主要项目，你可以通过微信扫码二维码查看这个项目。"
+    "my_projects": "Mis Proyectos",
+    "scsmods": "Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer",
+    "arduino": "Código para aplicaciones en arduino"
   },
   "career":{
-    "my_career": "Profesional",
+    "my_career": "Experiencia Profesional",
     "nextcode": "Nextcode",
     "nextcode_des": "现在我在Nextcode，使用Python为基因分析项目做网站.",
     "nextcode_date": "2016年4月",
