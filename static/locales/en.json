@@ -13,34 +13,53 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "des": "I am a mechanical engineer  interested by all the other field of Engineering. We never stop growing, so we never sould refuse to still learning for other people and for ours own experiences. Therefore, I alwaysctry to learn something new everyday of my life! "
   },
   "skills":{
     "my_skills": "My Skills"
   },
   "projects":{
     "my_projects": "My Projects",
-    "scsmods": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
-    "arduino": "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices."
+    "scsmods": "Scsmods is a repo where I share all the mods that I have created for the MAerican Truck Simulator and the American Truck Simulator. This is a personal project in which I use to work as a hobby.",
+    "arduino": "Arduino is  a project focused on share different codes I have created playing with my arduino board."
   },
   "career":{
     "my_career": "My Career",
-    "nextcode": "Nextcode",
-    "nextcode_des": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
-    "nextcode_date": "Apr. 2016",
-    "nextcode_job": "Python Developer",
-    "netease": "Netease Game",
-    "netease_des": "In Netease game, I learned game service system and use Python code for ops.",
-    "netease_date": "Jun. 2015",
-    "netease_job": "Dev Ops",
-    "ucloud": "Ucloud",
-    "ucloud_des": "In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.",
-    "ucloud_date": "Sep. 2013",
-    "ucloud_job": "Dev Ops",
-    "college": "Graduation",
-    "college_des": "At February 2010, I graduated from The Technological University of Panama.",
-    "college_date": "Feb. 2010",
-    "college_job": "Mechanical Engineer"
+
+    "phd": "PhD. Student @ RWTH Aachen University, Germany",
+    "phd_des": "PhD Student and Guest Scientist at Department of Mechanism Theory and Dynamics of Machines (IGM), RWTH Aachen University",
+    "phd_date": "Oct. 2015 - Present",
+    "phd_job": "Research",
+
+    "research2": "Research Assistant @ Technological University of Panama",
+    "research2_des": "I worked as Research Assistant in research projects at Technological University of Panama in the department of Design, Analysis and Simulation (L.E.A.D.S).",
+    "research2_date": "Jun. 2014 - Aug. 2015",
+    "research2_job": "Research",
+
+    "master": "Master's Degree in Mechanical Engineering @ Universidad of Seville, Spain",
+    "master_des": "in May 2014, I graduated from The University of Seville, Spain.",
+    "master_date": "May 2014",
+    "master_job": "Education",
+
+    "masterassis": "Research Assistant @ University of Seville, Spain",
+    "masterassis_des": "I worked as Research Assistant in research projects at department of Mechanical Engineering of the University of Seville.",
+    "masterassis_date": "Sep. 2012 - Apr. 2014",
+    "masterassis_job": "Work",
+
+    "research": "Research Assistant @ Technological University of Panama",
+    "research_des": "I worked as Research Assistant in research projects at Technological University of Panama in the department of Design, Analysis and Simulation (L.E.A.D.S).",
+    "research_date": "March. 2010 - Aug. 2012",
+    "research_job": "work",
+
+    "university": "Bechelor's Degree in Mechanical Engineering by Technoloical University of Panama",
+    "university_des": "in February 2010, I graduated from The Technological University of Panama.",
+    "university_date": "Feb. 2010",
+    "university_job": "Education",
+
+    "college": "Student Assistant @ Technological University of Panama",
+    "college_des": "I worked as a Student assistant in research projects at Technological University of Panama.",
+    "college_date": "Mar. 2007 - Dec. 2009",
+    "college_job": "Work"
   },
   "blog":{
     "my_blog": "My Blog"

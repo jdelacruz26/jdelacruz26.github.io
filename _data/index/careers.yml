@@ -1,57 +1,100 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
 - name:
-    detail: Nextcode
-    i18n: nextcode
+    detail: Research Assitant
+    i18n: phd
+  desc:
+    detail: I worked as Research Assistant in research projects at Technological University of Panama in the department of Design, Analysis and Simulation (L.E.A.D.S).
+    i18n: phd_des
+  date:
+    detail: Jun. 2014 - Aug. 2015
+    i18n: phd_date
+  job:
+    detail: Work
+    i18n: phd_job
+  icon: fa-search-plus
+
+- name:
+    detail: Research Assitant
+    i18n: research2
+  desc:
+    detail: I worked as Research Assistant in research projects at Technological University of Panama in the department of Design, Analysis and Simulation (L.E.A.D.S).
+    i18n: research2_des
+  date:
+    detail: Jun. 2014 - Aug. 2015
+    i18n: research2_date
+  job:
+    detail: Work
+    i18n: research2_job
+  icon: fa-search-plus
+
+- name:
+    detail: Master's Degree in Mechanical Engineering @ Universidad of Seville, Spain
+    i18n: master
   desc:
     detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
-    i18n: nextcode_des
+    i18n: master_des
   date:
-    detail: Apr. 2016
-    i18n: nextcode_date
+    detail: May 2014
+    i18n: master_date
   job:
-    detail: Python Developer
-    i18n: nextcode_job
-  icon: fa-plus-square
+    detail: Education
+    i18n: master_job
+  icon: fa-book
 
 - name:
-    detail: Netease Game
-    i18n: netease
+    detail: Research Assistant @ University of Seville, Spain
+    i18n: masterassis
   desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
-    i18n: netease_des
+    detail: I worked as Research Assistant in research projects at department of Mechanical Engineering of the University of Seville.
+    i18n: masterassis_des
   date:
-    detail: Jun. 2015
-    i18n: netease_date
+    detail: Sep. 2012 - Apr. 2014
+    i18n: masterassis_date
   job:
-    detail: Dev Ops
-    i18n: netease_job
-  icon: fa-gamepad
+    detail: Work
+    i18n: masterassis_job
+  icon: fa-suitcase
 
 - name:
-    detail: Ucloud
-    i18n: ucloud
+    detail: Research Assitant
+    i18n: research
   desc:
     detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
-    i18n: ucloud_des
+    i18n: research_des
   date:
-    detail: Sep. 2013
-    i18n: ucloud_date
+    detail: March. 2010 - Aug. 2012
+    i18n: research_date
   job:
-    detail: Dev Ops
-    i18n: ucloud_job
-  icon: fa-cloud
+    detail: Work
+    i18n: research_job
+  icon: fa-suitcase
 
 - name:
-    detail: Graduation
+    detail: Bachelor's Degree
+    i18n: university
+  desc:
+    detail: in February 2010,I graduated from The Technological University of Panama
+    i18n: university_des
+  date:
+    detail: Feb. 2010
+    i18n: university_date
+  job:
+    detail: Education
+    i18n: university_job
+  icon: fa-book
+
+- name:
+    detail: Student Assistant @ Technological University of Panama
     i18n: college
   desc:
-    detail: At February 2010,I graduated from The Technological University of Panama
+    detail: in February 2010,I graduated from The Technological University of Panama
     i18n: college_des
   date:
     detail: Feb. 2010
     i18n: college_date
   job:
-    detail: Student
+    detail: Work
     i18n: college_job
-  icon: fa-book
+  icon: fa-gear
