@@ -1,15 +1,18 @@
 # skills section data
-- name: ANSY
-  percentage: 50
+- name: Matlab/Simulink/SimMechanics
+  percentage: 85
 
-- name: Abaqus
-  percentage: 50
-
-- name: Matlab
+- name: Scilab
   percentage: 85
 
 - name: ROS/Moveit/Gazebo
   percentage: 80
+
+- name: ANSY
+  percentage: 60
+
+- name: Abaqus
+  percentage: 60
 
 - name: Latex
   percentage: 70
