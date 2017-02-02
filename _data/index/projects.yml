@@ -5,12 +5,26 @@
   i18n: scsmods
   gh_user: jdelacruz26
   repo: scsmods
-  img: /static/assets/img/landing/saplatform.png
+  img: /static/assets/img/landing/daf.png
   desc: Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer
 
 - name: Arduino
   i18n: arduino
   gh_user: jdelacruz26
   repo: arduinocode
-  img: /static/assets/img/landing/jekyll.png
+  img: /static/assets/img/landing/arduino.png
   desc: Código para aplicaciones en arduino
+
+- name: mef-math
+  i18n: mefmath
+  gh_user: jdelacruz26
+  repo: mef-math
+  img: /static/assets/img/landing/mesh.jpg
+  desc: Código para aplicaciones en arduino
+
+- name: MiscCode
+  i18n: matlabcode
+  gh_user: jdelacruz26
+  repo: matlabcode
+  img: /static/assets/img/landing/scilab.png
+  desc: Código para Matlab y Scilab

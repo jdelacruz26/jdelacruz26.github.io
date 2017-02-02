@@ -20,27 +20,52 @@
   },
   "projects":{
     "my_projects": "Mis Proyectos",
-    "scsmods": "Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer",
-    "arduino": "Código para aplicaciones en arduino"
+    "scsmods": "Proyecto que llevo a cabo durante mi tiempo libre y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer",
+
+    "arduino": "Código para aplicaciones en arduino",
+
+    "mef-math": "Implementación de un elemento de 4 nodos utilizando Mathematica.",
+
+    "MiscCode": "Repositorio que contiene códigos en Matlab y Scilab para la simulación de un mecanismo de 4 barras."
   },
   "career":{
     "my_career": "Experiencia Profesional",
-    "nextcode": "Nextcode",
-    "nextcode_des": "现在我在Nextcode，使用Python为基因分析项目做网站.",
-    "nextcode_date": "2016年4月",
-    "nextcode_job": "Python工程师",
-    "netease": "网易游戏",
-    "netease_des": "在网易游戏，我了解到游戏体系，并使用Python代码为自动化运维服务.",
-    "netease_date": "2015年6月",
-    "netease_job": "运维开发工程师",
-    "ucloud": "Ucloud",
-    "ucloud_des": "在Ucloud,我开始和服务器、操作系统打交道，并使用shell脚本管理海量服务器.",
-    "ucloud_date": "2013年9月",
-    "ucloud_job": "运维开发工程师",
-    "college": "毕业",
-    "college_des": "2013年7月大学毕业，开始了IT职业生涯",
-    "college_date": "2013年7月",
-    "college_job": "学生"
+
+    "phd": "Estudiante de Doctorado @ Universidad RWTH-Aachen, Alemania",
+    "phd_des": "Estudiante de Doctorado e Investigador Invitado en el Instituto de Teoría de Mecanismos y Dinámica de Máquinas",
+    "phd_date": "Oct. 2015 - Actualidad",
+    "phd_job": "Investigador",
+
+    "research2": "Asistente de Investigación @ Universidad Tecnológica de Panamá",
+    "research2_des": "Trabajé como asistente de Investigación en Proyectos de investigación llevados a cabo en el Laboratorio Especializado en Análisis, Diseño y Simulación (L.E.A.D.S), UTP.",
+    "research2_date": "Jun. 2014 - Ago. 2015",
+    "research2_job": "Investigador, Docente",
+
+    "master": "Maestría en Diseño Avanzado en Ingeniería Mecánica @ Universidad de Sevilla, España",
+    "master_des": "en Mayo de 2014, Me gradué de la Universida de Sevilla.",
+    "master_date": "Mayo 2014",
+    "master_job": "Educación",
+
+    "masterassis": "Asistente de Investigación @ Universidad de Sevilla, España",
+    "masterassis_des": "Trabajé como asistente de investigación en el Departamento de Ingeniería Mecánica de la Escuela de Ingeniería de la Universidad de Sevilla.",
+    "masterassis_date": "Sep. 2012 - Abr. 2014",
+    "masterassis_job": "Trabajo",
+
+    "research": "Asistente de Investigación @ Universidad Tecnológica de Panamá",
+    "research_des": "Trabajé como asistente de Investigación en Proyectos de investigación llevados a cabo en el Laboratorio Especializado en Análisis, Diseño y Simulación (L.E.A.D.S), UTP.",
+    "research_date": "Marzo. 2010 - Ago. 2012",
+    "research_job": "Trabajo",
+
+    "university": "Licenciatura en Ingeniería Mecánica @ Universidad Tecnológica de Panamá",
+    "university_des": "en Febrero de 2010, me gradué de la Universida Tecnológica de Panamá.",
+    "university_date": "Feb. 2010",
+    "university_job": "Educación",
+
+    "college": "Asistente Estudiantil @ Universidad Tecnológica de Panamá",
+    "college_des": "Trabajé como asistente estudiantil en proyectos de investigación en el Laboratorio Especializado en Análisis, Diseño y Simulación (L.E.A.D.S), UTP.",
+    "college_date": "Mar. 2007 - Dec. 2009",
+    "college_job": "Trabajo"
+
   },
   "blog":{
     "my_blog": "Mi Blog"
