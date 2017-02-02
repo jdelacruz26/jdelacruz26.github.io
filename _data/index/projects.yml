@@ -1,12 +1,6 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Scsmods
-  i18n: scsmods
-  gh_user: jdelacruz26
-  repo: scsmods
-  img: /static/assets/img/landing/daf.png
-  desc: Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer
 
 - name: Arduino
   i18n: arduino
@@ -28,3 +22,10 @@
   repo: matlabcode
   img: /static/assets/img/landing/scilab.png
   desc: Código para Matlab y Scilab
+
+- name: Scsmods
+  i18n: scsmods
+  gh_user: jdelacruz26
+  repo: scsmods
+  img: /static/assets/img/landing/volvo.png
+  desc: Proyecto que llevo a cabo y el cual consiste en crear mods para el Euro Truck Simulator 2 multiplayer.
