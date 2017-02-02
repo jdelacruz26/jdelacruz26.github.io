@@ -20,8 +20,15 @@
   },
   "projects":{
     "my_projects": "My Projects",
-    "scsmods": "Scsmods is a repo where I share all the mods that I have created for the MAerican Truck Simulator and the American Truck Simulator. This is a personal project in which I use to work as a hobby.",
-    "arduino": "Arduino is  a project focused on share different codes I have created playing with my arduino board."
+
+    "scsmods": "Scsmods is a repo where I share all the mods that I have created for the Euro Truck Simulator 2 and the American Truck Simulator. This is a personal project in which I use to work as a hobby.",
+
+    "arduino": "Arduino is  a project focused on share different codes I have created playing with my arduino board.",
+
+    "mef-math": "Implementatoin of an element of 4 nodes using Mathematica",
+
+    "MiscCode": "This repository contains Matlab and Scilab code related to a 4-bar mechanism simulation and more."
+
   },
   "career":{
     "my_career": "My Career",
@@ -36,7 +43,7 @@
     "research2_date": "Jun. 2014 - Aug. 2015",
     "research2_job": "Research",
 
-    "master": "Master's Degree in Mechanical Engineering @ Universidad of Seville, Spain",
+    "master": "Master's Degree in Mechanical Engineering @ University of Seville, Spain",
     "master_des": "in May 2014, I graduated from The University of Seville, Spain.",
     "master_date": "May 2014",
     "master_job": "Education",
@@ -51,7 +58,7 @@
     "research_date": "March. 2010 - Aug. 2012",
     "research_job": "work",
 
-    "university": "Bechelor's Degree in Mechanical Engineering by Technoloical University of Panama",
+    "university": "Bechelor's Degree in Mechanical Engineering @ Technoloical University of Panama",
     "university_des": "in February 2010, I graduated from The Technological University of Panama.",
     "university_date": "Feb. 2010",
     "university_job": "Education",
