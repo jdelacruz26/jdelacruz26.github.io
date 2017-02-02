@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "Primera entrada de mi Blog"
+title:  "Método de Newton-Raphson"
 desc: "Entrada de prueba de mi blog"
-keywords: "jekyll,blog,first"
+keywords: "code,scilab,matlab"
 date: 2017-02-01
-categories: [Life]
+categories: [Code]
 tags: [blog]
-icon: fa-bookmark-o
+icon: fa-code
 ---
 
 Tecto de prueba
@@ -15,5 +15,6 @@ Tecto de prueba
 ```
 2+2
 ```
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 texto de Prueba del blog
