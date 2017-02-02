@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Primera entrada de mi Blog"
 desc: "Entrada de prueba de mi blog"
 keywords: "jekyll,blog,first"
