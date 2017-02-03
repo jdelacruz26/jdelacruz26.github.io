@@ -4,7 +4,7 @@ comments: true
 title:  "Método de Newton-Raphson"
 desc: "Entrada de prueba de mi blog"
 keywords: "code,scilab,matlab"
-date: 2017-02-01
+date: 2013-11-01
 categories: [Code]
 tags: [blog]
 icon: fa-code
@@ -100,7 +100,7 @@ A continuación les dejo un código que hice en MATLAB con la implementación de
 function [xr]=newton(fun,x,tol,imax)
 err=100;
 n=1;
-while (tol&lt;=err)&amp;&amp;(n&lt;imax)
+while (tol&lt;=err)& & (n&lt;imax)
     xr = x-eval(fun)/(eval(diff(sym(fun))));
     err=abs((xr-x)/xr);
     error=err*100;
