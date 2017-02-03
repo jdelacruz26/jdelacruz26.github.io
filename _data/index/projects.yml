@@ -17,7 +17,7 @@
   desc: Código para aplicaciones en arduino
 
 - name: MiscCode
-  i18n: matlabcode
+  i18n: miscode
   gh_user: jdelacruz26
   repo: matlabcode
   img: /static/assets/img/landing/scilab.png

@@ -24,9 +24,9 @@
 
     "arduino": "Código para aplicaciones en arduino",
 
-    "mef-math": "Implementación de un elemento de 4 nodos utilizando Mathematica.",
+    "mefmath": "Implementación de un elemento de 4 nodos utilizando Mathematica.",
 
-    "MiscCode": "Repositorio que contiene códigos en Matlab y Scilab para la simulación de un mecanismo de 4 barras."
+    "misccode": "Repositorio que contiene códigos en Matlab y Scilab para la simulación de un mecanismo de 4 barras."
   },
   "career":{
     "my_career": "Experiencia Profesional",
