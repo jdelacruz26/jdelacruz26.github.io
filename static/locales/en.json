@@ -21,13 +21,13 @@
   "projects":{
     "my_projects": "My Projects",
 
-    "scsmods": "Scsmods is a repo where I share all the mods that I have created for the Euro Truck Simulator 2 and the American Truck Simulator. This is a personal project in which I use to work as a hobby.",
+    "scsmods": "Scsmods is a repo where I share all the mods that I have created for the Euro Truck Simulator 2 and the American Truck Simulator multiplayer.",
 
     "arduino": "Arduino is  a project focused on share different codes I have created playing with my arduino board.",
 
-    "mef-math": "Implementatoin of an element of 4 nodes using Mathematica",
+    "mefmath": "Implementation of an element of 4 nodes using Mathematica",
 
-    "MiscCode": "This repository contains Matlab and Scilab code related to a 4-bar mechanism simulation and more."
+    "miscode": "This repository contains Matlab and Scilab code related to a 4-bar mechanism simulation and more."
 
   },
   "career":{
