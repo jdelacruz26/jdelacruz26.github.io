@@ -4,26 +4,28 @@ comments: true
 title:  "Controlling the Dynamixel XH430-V210"
 desc: "This is a code aimed to control the Dynamixel XH430-V210 motor"
 keywords: "code,OpenCM,ROS,Dynamixel"
-date: 2017-09-13
+date: 2017-10-13
 categories: [Ros]
-tags: [blog]
-icon: fa-code
+tags: [ROS, Dynamixel, OpenCM]
+icon: fa-gears
 ---
 
-# Dynamixel XH430-V210
+# <i class="fa fa-cogs" aria-hidden="true"></i> Dynamixel XH430-V210
+
 This is a code aimed to control the Dynamixel XH430-V210 motor. The operation of the motor consists in driving the motor to two specific positions without exceeding a giving torque, *open* and *closed* positions. In order to do this, a *current-based Position control* is used.
 
 ---
 
-## Dependencies
-* [**OpenCM9.04**](http://support.robotis.com/en/product/controller/opencm9.04.htm)
-* [**OpenCM 485 EXP**](http://support.robotis.com/en/product/controller/opencm_485_exp.htm)
-* [**OpenCM IDE:**](http://support.robotis.com/en/software/robotis_opencm_main.htm)
-* [**Dynamixel Motor XH430-V210**](http://support.robotis.com/en/product/actuator/dynamixel_x/xh_series/xh430-w350_main.htm)
+## <i class="fa fa-list" aria-hidden="true"></i> Dependencies
+* [**OpenCM9.04**][1]
+* [**OpenCM 485 EXP**][2]
+* [**OpenCM IDE:**][3]
+* [**Dynamixel Motor XH430-V210**][4]
 
 ---
-## Guide lines for driving the motor using the OpenCM9+OpenCM 485 EXP board
-1. Connect the OpenCM 485 EXP board to a 24V source.
+## <i class="fa fa-cog" aria-hidden="true"></i> Guide lines for driving the motor using the OpenCM9+OpenCM 485 EXP board
+1. Connect the OpenCM 485 EXP board to a 24V source. <i class="fa fa-cogs" aria-hidden="true"></i>
+
 
 1. Approach the Dynamixel motor's shaft to the initial position (*open position*) manually.
 
@@ -33,20 +35,20 @@ This is a code aimed to control the Dynamixel XH430-V210 motor. The operation of
 
 1. It is time to drive the Dynamixel!, be sure that the workbench has been already set it up. Hold **Button2** until the red led and the green led turn on and then release it in order to drive the motor to the *closed Position*. As in the previous step,the controller will drive the shaft until the *maximum position* or the *maximum torque* are reached.
 
-1.  :heavy_exclamation_mark: It is possible to enable or disable the torque manually, this could be done pushing the **Button1** and **Button2** at the same time.
+1.  <i class="fa fa-exclamation" aria-hidden="true"></i> It is possible to enable or disable the torque manually, this could be done pushing the **Button1** and **Button2** at the same time.
 
-1. :warning:**Warning**: Once you have finished using the system, return the shaft to the initial position before powering off the motor or the OpenCM expansion board. Notice that the next time the controller is going to initialize the motor, it will drive the shaft to the absolute position taking in account only one turn.
+1. <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> **Warning**: Once you have finished using the system, return the shaft to the initial position before powering off the motor or the OpenCM expansion board. Notice that the next time the controller is going to initialize the motor, it will drive the shaft to the absolute position taking in account only one turn.
 
 <!--![OpenCM9.0 + 485 EXP board](figure/PenCM.png){width=50%}-->
 
 <div style="text-align:center;">
 <img src="/static/assets/img/blog/ros/PenCM.png" alt="Drawing" width= "500px"/>
 </div>
-<p align=center>
+<div style="text-align:center">
 OpenCM9.04 + OpenCM 485 EXP board + Dynamixel XH430-V210
-</p>
+</div>
 
-## Leds codification
+## <i class="fa fa-info" aria-hidden="true"></i> Leds codification
 
 The control board has three different leds which can be used in order to give a feedback about the current process or state of the code running on the board.
 
@@ -56,7 +58,7 @@ The control board has three different leds which can be used in order to give a 
 
 * **Red led**:The red led turns on when the shaft is commanded to the *closed position*. Once the closed position is reached the led will still on, at least the shaft is moved from his reference position.if this occurs, the red led will start flashing.
 
-## [OpenCM code](https://github.com/jdelacruz26/misccode/blob/dynamixel/sketchbook/igmr_dynamixel_control/igmr_dynamixel_control.ino)
+## <i class="fa fa-github" aria-hidden="true"></i> [OpenCM code](https://github.com/jdelacruz26/misccode/blob/dynamixel/sketchbook/igmr_dynamixel_control/igmr_dynamixel_control.ino)
 **Initialization values** are the values that can be modified by the user. Notice that the *open_position* will be always taken as 0 degrees.  
 
 ```c
@@ -69,3 +71,7 @@ float profile_velocity_rps = 0.7; //revolution per second (RPS). Max value = 1.4
 int pos_threshold = 57; //~5°
 ```
 ---
+[1]:http://support.robotis.com/en/product/controller/opencm9.04.htm
+[2]:http://support.robotis.com/en/product/controller/opencm_485_exp.htm
+[3]:http://support.robotis.com/en/software/robotis_opencm_main.htm
+[4]:http://support.robotis.com/en/product/actuator/dynamixel_x/xh_series/xh430-w350_main.htm
