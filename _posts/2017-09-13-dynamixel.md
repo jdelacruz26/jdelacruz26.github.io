@@ -6,7 +6,7 @@ desc: "This is a code aimed to control the Dynamixel XH430-V210 motor"
 keywords: "code,OpenCM,ROS,Dynamixel"
 date: 2017-10-13
 categories: [Ros]
-tags: [ROS, Dynamixel, OpenCM]
+tags: [ROS, Dynamixel, OpenCM, Ubuntu]
 icon: fa-gears
 ---
 

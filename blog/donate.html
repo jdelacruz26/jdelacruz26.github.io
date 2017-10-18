@@ -3,21 +3,43 @@ layout: blog
 title: Donate
 permalink: /donate/
 ---
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+
     <link href="{{ "/static/css/slick.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/static/css/slick-theme.css" | prepend: site.baseurl }}" rel="stylesheet">
 <div class="row">
     <div class="col-sm-8 col-sm-offset-2 text-center">
         <div class="navy-line"></div>
-        <h1>Donate Jalpc</h1>
-        <h3>If you like this theme and want to support it, just donate it. We can make Jalpc better!</h3>
+        <h1>Donate</h1>
+        <h3>If you like this blog and want to support it, just donate it and Thank you very much!</h3>
     </div>
 </div>
 
 <div class="wrapper wrapper-content animated pulse">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <h2 class="text-center m">Alipay</h2>
-            <div class="slick">
+            <div style="font-size:16px;margin:0 auto;width:300px;text-align:center" class="blockchain-btn"
+                 data-address="1McqCQpzEeq7N5yFcPmTvm4CNF31HzkhXA"
+                 data-shared="false">
+                <div class="blockchain stage-begin">
+                    <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+                </div>
+                <div class="blockchain stage-loading" style="text-align:center">
+                    <img src="https://blockchain.info/Resources/loading-large.gif"/>
+                </div>
+                <div class="blockchain stage-ready">
+                     <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
+                     <p align="center" class="qr-code"></p>
+                </div>
+                <div class="blockchain stage-paid">
+                     Donation of <b>[[value]] BTC</b> Received. Thank You.
+                </div>
+                <div class="blockchain stage-error">
+                    <font color="red">[[error]]</font>
+                </div>
+            </div>
+<!--            <div class="slick">
                 {% for alipay in site.data.donation.alipay %}
                 <div>
                     <div class="ibox-content">
@@ -25,10 +47,10 @@ permalink: /donate/
                     </div>
                 </div>
                 {% endfor %}
-            </div>
+            </div>-->
         </div>
     </div>
-    <div class="row">
+<!--    <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="text-center m">WeChat Pay</h2>
             <div class="slick">
@@ -41,7 +63,7 @@ permalink: /donate/
                 {% endfor %}
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="row">
         {% for donation in site.data.donation.donationlist %}
         {% assign loopindex = forloop.index | modulo: 2 %}
