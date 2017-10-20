@@ -10,9 +10,16 @@ tags: [ROS, Dynamixel, OpenCM, Ubuntu]
 icon: fa-gears
 ---
 
-# <i class="fa fa-cogs" aria-hidden="true"></i> Dynamixel XH430-V210
+# <i class="fa fa-cogs" aria-hidden="true"></i> Dynamixel XH430-V210 ![Build Status][5]
 
 This is a code aimed to control the Dynamixel XH430-V210 motor. The operation of the motor consists in driving the motor to two specific positions without exceeding a giving torque, *open* and *closed* positions. In order to do this, a *current-based Position control* is used.
+
+<div style="text-align:center;">
+<img src="/static/assets/img/blog/ros/PenCM.png" alt="Drawing" width= "500px"/>
+</div>
+<div style="text-align:center">
+Fig. 1: OpenCM9.04 + OpenCM 485 EXP board + Dynamixel XH430-V210
+</div>
 
 ---
 
@@ -23,7 +30,45 @@ This is a code aimed to control the Dynamixel XH430-V210 motor. The operation of
 * [**Dynamixel Motor XH430-V210**][4]
 
 ---
+
+## <i class="fa fa-cogs" aria-hidden="true"></i> How to compile and upload the code
+
+First at all, clone this repository, to be specific, the branch called *dynamixel*,
+
+
+```c
+git clone --branch=dynamixel https://github.com/jdelacruz26/arduinocode
+cd arduinocode/ROBOTIS_OpenCM-v1.0.2
+./ROBOTIS_OpenCM
+```
+
+The main window of the program must be deployed once you type the last command, getting a windows like,
+
+<div style="text-align:center;">
+<img src="/static/assets/img/blog/ros/OpenCM_1.png" alt="Drawing" width= "400px"/>
+</div>
+<div style="text-align:center">
+Fig. 2: OpenCM IDE
+</div>
+
+
+after this, you have to look up for the file you want to compile, in our case this file is *igmr_dynamixel_control.ino*. Open the file and compile it using the button shown in the picture. If the compilation has been succeed, the next step it would be to upload the compiled file to the Board. First, verify that the correct board and port are selected, *Tools->Board* and *Tools->Serial Port*. Next, Upload the code using the *Upload* Button.
+
+
+<div style="text-align:center;">
+<img src="/static/assets/img/blog/ros/OpenCM_2.png" alt="Drawing" width= "400px"/>
+</div>
+<div style="text-align:center">
+Fig. 3: **Compile** and **Upload** buttons.
+</div>
+
+
+
+That's it!, now you should be able to drive the motor using the two pushing Buttons shown on Fig. 1.
+
+
 ## <i class="fa fa-cog" aria-hidden="true"></i> Guide lines for driving the motor using the OpenCM9+OpenCM 485 EXP board
+
 1. Connect the OpenCM 485 EXP board to a 24V source. <i class="fa fa-cogs" aria-hidden="true"></i>
 
 
@@ -41,12 +86,6 @@ This is a code aimed to control the Dynamixel XH430-V210 motor. The operation of
 
 <!--![OpenCM9.0 + 485 EXP board](figure/PenCM.png){width=50%}-->
 
-<div style="text-align:center;">
-<img src="/static/assets/img/blog/ros/PenCM.png" alt="Drawing" width= "500px"/>
-</div>
-<div style="text-align:center">
-OpenCM9.04 + OpenCM 485 EXP board + Dynamixel XH430-V210
-</div>
 
 ## <i class="fa fa-info" aria-hidden="true"></i> Leds codification
 
@@ -70,8 +109,14 @@ float open_current_A = 0.18; //target current in A. Max value = 0.50
 float profile_velocity_rps = 0.7; //revolution per second (RPS). Max value = 1.45
 int pos_threshold = 57; //~5°
 ```
+
+
+
+
+
 ---
 [1]:http://support.robotis.com/en/product/controller/opencm9.04.htm
 [2]:http://support.robotis.com/en/product/controller/opencm_485_exp.htm
 [3]:http://support.robotis.com/en/software/robotis_opencm_main.htm
 [4]:http://support.robotis.com/en/product/actuator/dynamixel_x/xh_series/xh430-w350_main.htm
+[5]:https://travis-ci.org/jdelacruz26/misccode.svg?branch=dynamixel
