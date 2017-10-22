@@ -52,7 +52,7 @@ Fig. 2: OpenCM IDE
 </div>
 
 
-after this, you have to look up for the file you want to compile, in our case this file is *igmr_dynamixel_control.ino*. Open the file and compile it using the button shown in the picture. If the compilation has been succeed, the next step it would be to upload the compiled file to the Board. First, verify that the correct board and port are selected, *Tools->Board* and *Tools->Serial Port*. Next, Upload the code using the *Upload* Button.
+after this, you have to look up for the file you want to compile, in our case this file is *igmr_dynamixel_control.ino*. Open the file and compile it using the button shown in the picture. If the compilation has been successful, the next step it would be to upload the compiled file to the Board. First, verify that the correct board and port are selected, *Tools->Board* and *Tools->Serial Port*. Next, Upload the code using the *Upload* Button.
 
 
 <div style="text-align:center;">
