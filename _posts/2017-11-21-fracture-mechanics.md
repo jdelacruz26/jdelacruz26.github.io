@@ -2,12 +2,12 @@
 layout: post
 comments: true
 title:  "Modelo de Fisura Cohesiva en el Hormigón"
-desc: "Modelado de una grieta cohesiva en el Homigon"
+desc: "Modelado de una grieta cohesiva en el Hormigón"
 keywords: "Fracture"
 date: 2017-11-21
 categories: [Engineering]
 tags: [Fracture Mechanics]
-icon: pencil-square-o
+icon: fa-pencil-square-o
 ---
 
 La mecánica de la fractura es un área del conocimiento de la ingeniería de gran importancia. Es aplicable al estudio de propagación de grietas en materiales compuestos como el Hormigón en el cual aporta grandes conceptos a la hora de predecir el comportamiento de una estructura fisurada. En este trabajo el análisis de una viga en presencia de dos fisuras es llevado a cabo mediante modelos como el de fisura cohesiva comúnmente utilizado en materiales como el hormigón. El software **Franc2d** desarrollado por el grupo de Fractura de la Universidad de Cornell es utilizado en la simulación del caso de estudio.
@@ -20,10 +20,11 @@ El caso de estudio propuesto consiste de una viga de hormigón empotrada en un e
 
 Las propiedades mecánicas del hormigón utilizadas son: $$E=30GPa$$, $$f_c = 30MPa$$, $$/nu = 0,2$$ y $$G_f = 80N/m$$.
 
-[<center><img src="/static/assets/img/blog/engineering/viga.png" alt="Drawing"width="450px"/></center>](/static/assets/img/blog/engineering/viga.pdf)
-<div style="text-align:center">
+[<center><img src="/static/assets/img/blog/engineering/viga.png" alt="Drawing" width="450px"/></center>](/static/assets/img/blog/engineering/viga.pdf)
+
+<center>
 Fig. 1: Viga empotrada. <a id="fig1"></a>
-</div>
+</center>
 
 <br>
 
@@ -42,6 +43,8 @@ $$
 
 
 Esto es suponiendo un área triangular (ablandamiento lineal).
+
+<br>
 
 ## <i class="fa fa-circle-o"></i> Definición de la carga
 
