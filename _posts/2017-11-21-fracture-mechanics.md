@@ -56,6 +56,8 @@ La simulación fue llevada a cabo utilizando el software **Franc2d** desarrollad
 Fig. 2: Mallado de la viga y grietas <a id="vigamesh"></a>.
 </div>
 
+<br></br>
+
 | a) Mallado - Grieta 1  |  b) Mallado - Grieta 2  |
 | --- | --- |
 | [<img src="/static/assets/img/blog/engineering/tip1.png" alt="Drawing" width= "300px"/>](/static/assets/img/blog/engineering/tip1.png) |  [<img src="/static/assets/img/blog/engineering/tip2.png" alt="Drawing" width= "300px"/>](/static/assets/img/blog/engineering/tip2.png) |
@@ -66,17 +68,17 @@ Fig. 3: Mallado entorno a las grietas. <a id="fig3"></a>
 
 Como resultado de la simulación, los resultados de la evolución de las tensiones a lo largo de los labios de la grieta así como  la apertura de la misma son mostrados en la figura <sup id="a1">[1](#f1)</sup> [4](#fig4) para la grieta 1 y en la figura [5](#fig5) para la grieta 2.
 
-<center>
-[<img src="/static/assets/img/blog/engineering/viga_fig2.png" width="550px"/>](/static/assets/img/blog/engineering/viga_fig2.pdf)
-</center>
+
+[<center><img src="/static/assets/img/blog/engineering/viga_fig2.png" width="550px"/></center>](/static/assets/img/blog/engineering/viga_fig2.pdf)
+
 <center>
 Fig. 4: Evolución de las tensiones y de la apertura de grieta (Grieta 1) a lo largo de los labios. <a id="fig4"></a>
 </center>
 
 
-<center>
-[<img src="/static/assets/img/blog/engineering/viga_fig3.png" width="550px"/>](/static/assets/img/blog/engineering/viga_fig3.pdf)
-</center>
+
+[<center><img src="/static/assets/img/blog/engineering/viga_fig3.png" width="550px"/></center>](/static/assets/img/blog/engineering/viga_fig3.pdf)
+
 <center>
 Fig. 5: Evolución de las tensiones y de la apertura de grieta (Grieta 2) a lo largo de los labios.<a id="fig5"></a>
 </center>
@@ -92,11 +94,13 @@ A partir de las gráficas se puede ver el comportamiento de los elementos cohesi
 Fig. 6: Elementos cohesivos <a id="fig6"></a>
 </center>
 
+<br>
+
 Como resultado del análisis se pudo observar que la longitud de la zona cohesiva a lo largo de la grieta fue de $$6.12mm$$ para la grieta 1 y $$3.67mm$$ para la grieta 2. Esto se explica ya que al ser la grieta 2 mayor que 1, produce una concentración de tensiones mayor. Esto se puede observar en la figura [sxx](#sxx) en la cual se muestra la evolución de las tensiones $$\sigma_{xx}$$ en frente de la grieta (transversal a la sección de la viga en donde se encuentra la grieta). Para el caso de la grieta 2 la tensión en la punta de la grieta es de $$105MPa$$ mientras que en la punta de la grieta 1 la tensión es de $$31.64MPa$$
 
-<center>
-[<img src="/static/assets/img/blog/engineering/viga_fig4.png" width="550px"/>](/static/assets/img/blog/engineering/viga_fig4.pdf)
-</center>
+
+[<center><img src="/static/assets/img/blog/engineering/viga_fig4.png" width="550px"/></center>](/static/assets/img/blog/engineering/viga_fig4.pdf)
+
 <center>
 Fig. 7: Evolución de las tensiones $$\sigma_{xx}$$ en frente de las grietas <a id="sxx"></a>.
 </center>
@@ -127,7 +131,6 @@ Fig. 9: Gráfica de tensiones normales vs apertura crítica. <a id="fig9"></a>
 Se realizó una predicción de propagación de las grietas de la cual se concluyó que en el caso que las grietas crezcan el fallo en el componente se produciría por una crecimiento incontrolado de la grieta 2. En la figura [10](#fig10) se puede ver la dirección preferencial de propagación de la grieta mientras que en la figura [11](#fig11) se ve la grieta 2 ya propagada.
 
 
----
 | a) Dirección de propagación - Grieta 1  |  b) Dirección de propagación - Grieta 2  |
 | --- | --- |
 | [<img src="/static/assets/img/blog/engineering/dire1.png" width="300px"/>](/static/assets/img/blog/engineering/dire1.png) |  [<img src="/static/assets/img/blog/engineering/dire2.png" width="300px"/>](/static/assets/img/blog/engineering/dire2.png) |
