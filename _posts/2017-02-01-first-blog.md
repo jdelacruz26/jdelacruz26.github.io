@@ -26,7 +26,7 @@ $$x_{i+1}=x_i-\frac{f(x_i)}{f'(x_i)}$$
 
 Esta es la formula utilizada en el método de Newton-Raphson
 
-**Estimación del error**
+## <i class="fa fa-balance-scale"></i> Estimación del error
 
 Para poder especificar un criterio de paro en el método de Newton-Raphson se suele utilizar la siguiente expresión para calcular el error en cada iteración:
 
@@ -81,10 +81,11 @@ $$E_{t,i+1}=\frac{-f''(x_r)}{2f'(x_r)}E_{t.i}^2 \label{ref7}$$
 
 Por lo que podemos ver en la ecuación \eqref{ref7} el error es proporcional al cuadrado del error anterior, este es uno de los motivos por los cuales en el caso de que la solución converja lo hace de una manera bastante rápida, sólo después de un par de iteraciones. A este comportamiento se le conoce como convergencia cuadrática.
 
+## <i class="fa fa-code"></i> Código
 A continuación les dejo un código que hice en MATLAB con la implementación del método.
 
 
-```
+~~~ matlab
 %%%/////////////////////////////////////////////////
 % /          Función Newton-Raphson            ///
 %/        Desarrollada por Jorge De La Cruz     ///
@@ -97,11 +98,16 @@ A continuación les dejo un código que hice en MATLAB con la implementación de
 % imax: máximo número de iteraciones, evita que el
 % programa se quede en un bucle infinito en caso de que
 % el método no converja.
-function [xr]=newton(fun,x,tol,imax)
+function [xr]=newton(f,xi,tol,imax)
+fun = str2sym(f);
 err=100;
 n=1;
-while (tol&lt;=err)& & (n&lt;imax)
-    xr = x-eval(fun)/(eval(diff(sym(fun))));
+dfun = diff(fun);
+x=xi;
+while (tol<err)&& (n<imax)
+    dfun1 = eval(dfun);
+    fun1 = eval(fun);
+    xr = double(x-fun1/dfun1);
     err=abs((xr-x)/xr);
     error=err*100;
     x=xr;
@@ -116,7 +122,15 @@ xlabel('$x$','interpreter','latex','fontsize',18)
 ylabel('$y$','interpreter','latex','fontsize',18)
 grid on
 end
-```
+~~~
+
+
+## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
+[<center><img src="/static/assets/img/blog/code/newton_proof.png" alt="Drawing" width= "550px"/></center>](/static/assets/img/blog/code/newton_proof.png)
+<center>
+Fig.: Prueba del código ></a>.
+</center>
+
 
 ---
 
