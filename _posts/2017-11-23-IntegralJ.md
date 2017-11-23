@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title:  "Mecánica de la Fractura y la Fatiga - Integral J"
+title:  "Mecánica de Fractura y Fatiga - Integral J"
 desc: "Descripción del método de la integral J"
 keywords: "Fracture"
-date: 2017-11-25
+date: 2017-11-23
 categories: [Engineering]
 tags: [Fracture Mechanics, Engineering]
 icon: fa-pencil-square-o
@@ -15,16 +15,19 @@ La **integral J** es una integral de linea alrededor del frente de grieta (ver f
  La integral $J$ se define de la siguiente manera:
  <br>
 
- <a id="eq1">eq.1</a>
+ <center>
  $$
 \begin{eqnarray}
 J &=& \int W dy - \int \overline{T} \frac{\partial \overline{u}}{\partial x} ds
 \end{eqnarray}
 $$
+<a id="eq1">eq.1</a>
+</center>
 
 <br>
 En donde:
 <br>
+<center>
 $$
 \begin{eqnarray}
 W &=&\frac{1}{2}(\sigma_{xx}\epsilon_{xx}+ \sigma_{yy}\epsilon_{yy}+\sigma _{xy} \gamma _{xy})\\
@@ -33,15 +36,20 @@ W &=&\frac{1}{2}(\sigma_{xx}\epsilon_{xx}+ \sigma_{yy}\epsilon_{yy}+\sigma _{xy}
 \gamma_{xy} &=& \frac{\sigma_{xy}}{G}
 \end{eqnarray}
 $$
+</center>
 <br>
 
  Mientras que:
  <br>
+
+<center>
 $$
 \begin{eqnarray}
 \int \overline{T} \frac{\partial \overline{u}}{\partial x} ds &=& \int_{\Gamma}\left ( \sigma_{xx} \frac{\partial u}{\partial x}+ \sigma_{xy} \frac{\partial v}{\partial x}\right )dy - \int_{\Gamma} \left ( \sigma_{xy} \frac{\partial u}{\partial x}+ \sigma_{yy} \frac{\partial v}{\partial x}\right )dx
 \end{eqnarray}
 $$
+</center>
+
 <br>
 [<center><img src="/static/assets/img/blog/engineering/figj1.png" width="300px"/></center>](/static/assets/img/blog/engineering/figj1.pdf)
 
@@ -53,17 +61,19 @@ La integral $J$ es aplicada al caso de estudio mostrado en la figura  [1](#fig1)
 
 De esta forma la integral $J$ está compuesta de la suma de la misma en cada uno de los distintos segmentos, esto es:
 <br>
+<center>
 $$
 \begin{eqnarray}
 J &=&J_{AB}+J_{BC}+J_{CD}+J_{DE}+J_{EF}
 \end{eqnarray}
 $$
+</center>
 <br>
 
 El cálculo de la integral $J$ a partir de la función $\phi=\sigma/\sqrt{1-\left (\frac{a}{z}\right )^{2}}$ en donde $z=x+iy$, se realizó utilizando un software de cálculo simbólico llamado **Maxima**. Los resultados para cada uno de los términos de la integral $J$ presentados en la ecuación [eq.1](#eq1) se muestran en las figuras [2](#fig2) y [3](#fig3). A partir de estas se evalúa la integral correspondiente a cada uno de los segmentos dando como resultado:
 <br>
 
-<a id="eq2">eq.2</a>
+<center>
 $$
 \begin{eqnarray}
 J_{AB} &=&-336.739 \nonumber \\
@@ -74,9 +84,13 @@ J_{EF} &=& -336.739 \nonumber \\
 J &=& 1633.622Pa\sqrt{m} \label{result}
 \end{eqnarray}
 $$
+<a id="eq2">eq.2</a>
+</center>
 <br>
 Como sabemos que $J=\frac{K_{I}^{2}(1-\nu ^{2})}{E}$ (para MFEL), entonces:
 <br>
+<center>
+<a id="eq3"></a>
 $$
 \begin{eqnarray}
 J &=& \frac{(\sigma \sqrt{\pi a})^{2}(1-\nu ^{2})}{E} \nonumber \\
@@ -84,11 +98,13 @@ J&=&\frac{(100MPa\sqrt{\pi 0.012})^{2}(1-0.3 ^{2})}{210GPa} \nonumber \\
 J&=&1633.628Pa\sqrt{m} \label{result2}
 \end{eqnarray}
 $$
+</center>
 <br>
 
-Como se puede observar el resultado en [eq.2](#eq2)<sub id="an1">[1](#fn1)</sub> y \eqref{result2} coinciden, de esta forma se verifica el valor calculado a partir de la formulación presentada en [eq.1](#eq1).
+Como se puede observar el resultado en [eq.2](#eq2)<sup id="an1">[1](#fn1)</sup> y [eq.3](#eq3) coinciden, de esta forma se verifica el valor calculado a partir de la formulación presentada en [eq.1](#eq1).
 
-[<center><img src="/static/assets/img/blog/engineering/figj2.png" width="300px"/></center>](/static/assets/img/blog/engineering/figj2.pdf)
+<br>
+[<center><img src="/static/assets/img/blog/engineering/figj2.png" width="600px"/></center>](/static/assets/img/blog/engineering/figj2.pdf)
 
 <center>
 Fig. 2: Valores para los segmentos: $a)A-B$, $b)E-F$, $c)B-C$ y $d)D-E$. <a id="fig2"></a>
@@ -96,14 +112,14 @@ Fig. 2: Valores para los segmentos: $a)A-B$, $b)E-F$, $c)B-C$ y $d)D-E$. <a id="
 
 <br>
 
-[<center><img src="/static/assets/img/blog/engineering/figj3.png" width="300px"/></center>](/static/assets/img/blog/engineering/figj3.pdf)
+[<center><img src="/static/assets/img/blog/engineering/figj3.png" width="400px"/></center>](/static/assets/img/blog/engineering/figj3.pdf)
 
 <center>
 Fig. 3: Grieta de longitud $2a$ y camino de integración $\overline{ABCDEF}$. <a id="fig3"></a>
 </center>
 <br>
 
-<i class="fa fa-github"></i> [Código para la solución de las ecuaciones](https://github.com/jdelacruz26/misccode/blob/blog-code/integralJ.lsp)
+<i class="fa fa-github fa-2x"></i> [Código para la solución de las ecuaciones](https://github.com/jdelacruz26/misccode/blob/blog-code/integralJ.lsp)
 
 <br>
 
