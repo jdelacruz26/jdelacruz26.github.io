@@ -91,44 +91,7 @@ Por lo que podemos ver en la ecuación \eqref{ref7} el error es proporcional al 
 A continuación les dejo un código que hice en MATLAB con la implementación del método.
 
 
-~~~ matlab
-%%%/////////////////////////////////////////////////
-% /          Función Newton-Raphson            ///
-%/        Desarrollada por Jorge De La Cruz     ///
-%/                                             ///
-%////////////////////////////////////////////////
-% La función 'fun' debe ser introducida como un string
-% x: representa el valor inicial necesario para iniciar
-% las iteraciones.
-% tol: La tolerancia deseada.
-% imax: máximo número de iteraciones, evita que el
-% programa se quede en un bucle infinito en caso de que
-% el método no converja.
-function [xr]=newton(f,xi,tol,imax)
-fun = str2sym(f);
-err=100;
-n=1;
-dfun = diff(fun);
-x=xi;
-while (tol<err)&& (n<imax)
-    dfun1 = eval(dfun);
-    fun1 = eval(fun);
-    xr = double(x-fun1/dfun1);
-    err=abs((xr-x)/xr);
-    error=err*100;
-    x=xr;
-    fprintf('Iteración: %d, Error: %f, Raiz: %f\n',n,error,xr)
-    n=n+1;
-end
-x=-2:0.001:xr+1;
-y=eval(fun);
-plot(x,y)
-title('METODO DE NEWTON-RAPHSON')
-xlabel('$x$','interpreter','latex','fontsize',18)
-ylabel('$y$','interpreter','latex','fontsize',18)
-grid on
-end
-~~~
+<script src="https://gist.github.com/jdelacruz26/d25f750dd66e384a2c93cf22b8869db0.js"></script>
 
 
 ## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
