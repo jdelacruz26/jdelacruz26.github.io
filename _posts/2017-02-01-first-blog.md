@@ -93,7 +93,8 @@ Por lo que podemos ver en la ecuación \eqref{ref7} el error es proporcional al 
 A continuación les dejo un código que hice en MATLAB con la implementación del método.
 
 
-<script src="https://gist.github.com/jdelacruz26/d25f750dd66e384a2c93cf22b8869db0.js"></script>
+{% gist d25f750dd66e384a2c93cf22b8869db0 %}
+
 
 
 ## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
