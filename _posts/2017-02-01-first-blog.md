@@ -9,8 +9,6 @@ categories: [Code]
 tags: [blog]
 icon: fa-code
 ---
-<style type="text/css"> /* Better styles for embedding GitHub Gists */ .line-data { font-size:11px; font-family: Consolas,"Liberation Mono",Courier,monospace; } .line-numbers { font-size:11px; background-color: #ECECEC; border-right: 1px solid #DDDDDD; color: #AAAAAA; padding: 0.0em; text-align: right; } .line-pre { font-size:11px;font-family: Consolas,"Liberation Mono",Courier,monospace; } </style>
-
 
 Tal vez, dentro de los métodos para determinar el valor de las raíces de una función ya sea lineal o no lineal, el método de Newton es uno de los más utilizados. Si el valor inicial con el que se aproxima  la raíz es $x_i$, entonces se puede extender una tangente desde el punto $[x_i,f(x_i)]$ en donde $i=0,1,2,..,n$. De esta forma el punto de la tangente que corta al eje $x$ representa una aproximación mejorada de la raíz (ver la figura).
 
@@ -94,12 +92,14 @@ A continuación les dejo un código que hice en MATLAB con la implementación de
 
 
 <style type="text/css">
-  .gist {width:500px !important;}
+  .gist {width:650px !important;}
   .gist-file
-  .gist-data {max-height: 500px;max-width: 500px;}
+  .gist-data {max-height: 650px;max-width: 650px;}
 </style>
-<script src="https://gist.github.com/jdelacruz26/d25f750dd66e384a2c93cf22b8869db0.js"></script>
 
+<center>
+<script src="https://gist.github.com/jdelacruz26/d25f750dd66e384a2c93cf22b8869db0.js"></script>
+</center>
 
 ## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
 [<center><img src="/static/assets/img/blog/code/newton_proof.png" alt="Drawing" width= "550px"/></center>](/static/assets/img/blog/code/newton_proof.png)
