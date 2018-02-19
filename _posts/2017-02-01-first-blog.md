@@ -98,7 +98,9 @@ A continuación les dejo un código que hice en MATLAB con la implementación de
 </style>
 
 <center>
+<div><span>
 <script src="https://gist.github.com/jdelacruz26/d25f750dd66e384a2c93cf22b8869db0.js"></script>
+</span></div>
 </center>
 
 ## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
