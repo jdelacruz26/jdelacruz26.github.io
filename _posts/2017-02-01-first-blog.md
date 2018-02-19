@@ -104,12 +104,16 @@ A continuación les dejo un código que hice en MATLAB con la implementación de
 </center>
 
 ## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
+
+
 [<center><img src="/static/assets/img/blog/code/newton_proof.png" alt="Drawing" width= "550px"/></center>](/static/assets/img/blog/code/newton_proof.png)
 <center>
-Fig.: Prueba del código ></a>.
+Fig.: Prueba del código .
 </center>
 
 
 ---
 
+<center>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Método Newton-Raphson</span> por <a xmlns:cc="http://creativecommons.org/ns#" href="https://jdelacruz26.github.io" property="cc:attributionName" rel="cc:attributionURL">Jorge De La Cruz</a> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
+</center>
