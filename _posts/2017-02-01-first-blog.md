@@ -93,8 +93,12 @@ Por lo que podemos ver en la ecuación \eqref{ref7} el error es proporcional al 
 A continuación les dejo un código que hice en MATLAB con la implementación del método.
 
 
-{% gist d25f750dd66e384a2c93cf22b8869db0 %}
-
+<style type="text/css">
+  .gist {width:500px !important;}
+  .gist-file
+  .gist-data {max-height: 500px;max-width: 500px;}
+</style>
+<script src="https://gist.github.com/jdelacruz26/d25f750dd66e384a2c93cf22b8869db0.js"></script>
 
 
 ## <i class="fa fa-image"></i> Captura de pantalla de ejecución del código.
