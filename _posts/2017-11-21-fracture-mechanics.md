@@ -7,14 +7,15 @@ keywords: "Fracture"
 date: 2017-11-21
 categories: [Engineering]
 tags: [Fracture Mechanics]
-icon: fa-pencil-square-o
+icon: fa-edit
 ---
+<script defer src="/static/js/fontawesome-all.js"></script>
 
 La mecánica de la fractura es un área del conocimiento de la ingeniería de gran importancia. Es aplicable al estudio de propagación de grietas en materiales compuestos como el Hormigón en el cual aporta grandes conceptos a la hora de predecir el comportamiento de una estructura fisurada. En este trabajo el análisis de una viga en presencia de dos fisuras es llevado a cabo mediante modelos como el de fisura cohesiva comúnmente utilizado en materiales como el hormigón. El software **Franc2d** desarrollado por el grupo de Fractura de la Universidad de Cornell es utilizado en la simulación del caso de estudio.
 
 <br>
 
-# <i class="fa fa-cog fa-spin fa-fw"></i> Caso de Estudio
+# <i class="far fa-cog fa-spin fa-fw"></i> Caso de Estudio
 
 El caso de estudio propuesto consiste de una viga de hormigón empotrada en un extremo como se muestra en la [figura 1](#fig1). Las dimensiones son: $$L = 4m$$, $$h = 60cm$$ y $$t = 15cm$$. Dicha viga contiene dos grietas, una de *5cm* ubicada a *30cm* desde el apoyo empotrado y otra de $$20cm$$ ubicada a $$2m$$ del extremo.
 
@@ -28,7 +29,7 @@ Fig. 1: Viga empotrada. <a id="fig1"></a>
 
 <br>
 
-## <i class="fa fa-circle-o"></i> Elementos cohesivos
+## <i class="far fa-circle"></i> Elementos cohesivos
 
 Para modelar de forma correcta los elementos cohesivos en la interfaz de la grieta necesitamos la resistencia a la tracción de los elementos, esta es de $$f_{ct} =4MPa$$ mientras que la apertura de grieta crítica $$W_c$$ se obtiene a partir de $$f_{ct}$$ y $$G_f$$ ya que:
 
@@ -46,13 +47,13 @@ Esto es suponiendo un área triangular (ablandamiento lineal).
 
 <br>
 
-## <i class="fa fa-circle-o"></i> Definición de la carga
+## <i class="far fa-circle"></i> Definición de la carga
 
 En la [figura 1](#fig1) se muestra una carga $$P$$ aplicada en el extremo de la viga actuando en dirección $$y$$ negativo. En lugar de esto a la hora de llevar a cabo la simulación se impuso un desplazamiento al extremo de la viga, este desplazamiento fue de $$1cm$$ equivaliendo el mismo a una carga aproximada $$P=32kN$$.
 
 <br>
 
-# <i class="fa fa-circle"></i> Resultados
+# <i class="far fa-circle"></i> Resultados
 La simulación fue llevada a cabo utilizando el software **Franc2d** desarrollado por el grupo de fractura de la [Universidad de Cornell](http://www.cfg.cornell.edu/software/software.htm). En primer lugar se generó el modelo y la malla de la viga utilizando el programa **CASCA**, una vez generado se importó a **Franc2d** introduciéndole las grietas, obteniendo como resultado la discretización mostrada en la [figura 2](#vigamesh). Una vista ampliada del mallado entorno a las grietas es presentado en la [figura 3](#fig3).
 
 [<center><img src="/static/assets/img/blog/engineering/vigamesh.png" alt="Drawing" width= "550px"/></center>](/static/assets/img/blog/engineering/vigamesh.png)
@@ -138,7 +139,7 @@ Fig. 9: Gráfica de tensiones normales vs apertura crítica. <a id="fig9"></a>
 
 <br>
 
-## <i class="fa fa-circle-o"></i> Propagación
+## <i class="far fa-circle"></i> Propagación
 
 Se realizó una predicción de propagación de las grietas de la cual se concluyó que en el caso que las grietas crezcan el fallo en el componente se produciría por una crecimiento incontrolado de la grieta 2. En la figura [10](#fig10) se puede ver la dirección preferencial de propagación de la grieta mientras que en la figura [11](#fig11) se ve la grieta 2 ya propagada.
 
@@ -164,7 +165,7 @@ Fig. 11: Propagación de la grieta. <a id="fig11"></a>
 
 
 
-# <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Conclusiones
+# <i class="far fa-thumbs-up" aria-hidden="true"></i> Conclusiones
 Se presentaron los resultados de un análisis de fractura en una viga de hormigón utilizando el modelo de grieta cohesiva. Los resultados presentados demuestran que en caso de fallo por fisura propagante el mismo se daría en la grieta 2. También es posible ver como el valor de $G_{f}$ de las curvas cohesivas (figura [8](#fig8) y [9](#fig9)) se aproxima de buena manera al valor teórico de $80N/m$, si se observa el valor de la grieta 2 ($76.86N/m$) es más cercano que de la grieta 1 ($72.70N/m$), esto se debe al mallado más fino realizado entorno a la grieta 2.
 
 

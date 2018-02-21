@@ -1,3 +1,4 @@
+<script defer src="/static/js/fontawesome-all.js"></script>
 @charset "UTF-8";
 /* Better styles for embedding GitHub Gists */
 .gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}
@@ -8936,7 +8937,7 @@ button.close {
 .fa-file-o:before {
  content:"\f016"
 }
-.fa-clock-o:before {
+.fa-clock:before {
  content:"\f017"
 }
 .fa-road:before {
@@ -9062,7 +9063,7 @@ button.close {
 .fa-tint:before {
  content:"\f043"
 }
-.fa-edit:before,.fa-pencil-square-o:before {
+.fa-edit:before,.fa-pencil-square:before {
  content:"\f044"
 }
 .fa-share-square-o:before {
@@ -10115,7 +10116,7 @@ button.close {
 .fa-file-movie-o:before,.fa-file-video-o:before {
  content:"\f1c8"
 }
-.fa-file-code-o:before {
+.fa-file-code:before {
  content:"\f1c9"
 }
 .fa-vine:before {
@@ -16256,6 +16257,7 @@ dd.project-people {
 }
 .article-title {
  text-align:center;
+ font-weight: bold;
  margin:40px 0 100px
 }
 .article .ibox-content {
@@ -17454,7 +17456,7 @@ body.landing-page {
 .landing-page h1 {
  margin-top:10px;
  font-size:30px;
- font-weight:200
+ font-weight:700
 }
 .landing-page .navy-line {
  width:60px;

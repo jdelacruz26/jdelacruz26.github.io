@@ -7,8 +7,10 @@ keywords: "Linux,Ubuntu"
 date: 2017-11-11
 categories: [Linux]
 tags: [Linux, Ubuntu]
-icon: fa-gears
+icon: fa-cogs
 ---
+
+<script defer src="/static/js/fontawesome-all.js"></script>
 
 Este post tiene como objetivo mostrar como instalar *Ubuntu 16LTS* en una tarjeta *Beaglebone Black* utilizando una tarjeta SD externa.
 
@@ -19,7 +21,8 @@ Este post tiene como objetivo mostrar como instalar *Ubuntu 16LTS* en una tarjet
 Beaglebone Black.
 </div>
 
-## <i class="fa fa-search-plus" aria-hidden="true"></i> **Objetivos**
+<br>
+## <i class="far fa-search-plus" aria-hidden="true"></i> **Objetivos**
 
 Los objetivos que se buscan lograr son los siguientes:
 
@@ -27,8 +30,8 @@ Los objetivos que se buscan lograr son los siguientes:
 
 1. Realizar una configuración básica de la distribución Ubuntu instalada.
 
-
-## <i class="fa fa-list-ul"></i> Materiales necesarios
+<br>
+## <i class="far fa-list-ul"></i> Materiales necesarios
 Para llevar a cabo la configuración, se necesitan los siguientes componentes:
 
 * Tarjeta Beaglebone Black
@@ -36,7 +39,8 @@ Para llevar a cabo la configuración, se necesitan los siguientes componentes:
 * Módulo wifi via USB
 * Cable de conexión USB para conectar con la computadora
 
-## <i class="fa fa-cogs" aria-hidden="true"></i> Instalación de Ubuntu 16 LTS en un tarjeta micro SD
+<br>
+## <i class="far fa-cogs" aria-hidden="true"></i> Instalación de Ubuntu 16 LTS en un tarjeta micro SD
 Para poder contar con Ubuntu 16LTS ejecutándose en nuestro Beablebone Black lo primero sería descargar una imagen de la versión de dicha distribuciñon para sistemas arm:
 
 ```
@@ -100,7 +104,8 @@ Las credenciales por defecto para registrarse en el sistema son:
 * Nombre de usuario: ubuntu
 * Contraseña: temppwd
 
-## <i class="fa fa-user"></i> Personalización
+<br>
+## <i class="far fa-user"></i> Personalización
 
 Una vez hayamos terminado con éxito el proceso de instalación de la distribución de Ubuntu en nuestro Beaglebone Black podemos empezar a configurarlo. Para empezar creamos un juego nuevo de llaves ssh,
 
@@ -152,5 +157,11 @@ $ sudo apt-get install gcc-multilib g++-multilib
 
 De esta forma podemos contar con una configuración básica de nuestra distribución Ubuntu 16LTS ejecutandose en nuestri Beaglebone Black.
 
-## <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> **Conclusiones**
+<br>
+## <i class="far fa-thumbs-up" aria-hidden="true"></i> **Conclusiones**
 Durante esta entrada se mostró como descargar y quemar una imagen de la distribución Ubuntu 16LTS en una tarjeta microSD desde la cual se pudiera ejecutar dicha distribución, esto puede ser llevado acabo utilizando el comando **dd** junto a los argumentos que identifican el origin y destino de la imagen a grabar. Y por último se mostró como realizar una configuración básica de nuestra distribución linux ya ejecutándose en el Beaglebone Black.
+
+---
+<center>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Cómo instalar Ubuntu 16LTS en una memoria remomible en una Beaglebone Black</span> por <a xmlns:cc="http://creativecommons.org/ns#" href="https://jdelacruz26.github.io" property="cc:attributionName" rel="cc:attributionURL">Jorge De La Cruz</a> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
+</center>

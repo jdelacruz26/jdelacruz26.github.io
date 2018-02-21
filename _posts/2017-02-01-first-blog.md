@@ -10,6 +10,8 @@ tags: [blog]
 icon: fa-code
 ---
 
+<script defer src="/static/js/fontawesome-all.js"></script>
+
 Tal vez, dentro de los métodos para determinar el valor de las raíces de una función ya sea lineal o no lineal, el método de Newton es uno de los más utilizados. Si el valor inicial con el que se aproxima  la raíz es $x_i$, entonces se puede extender una tangente desde el punto $[x_i,f(x_i)]$ en donde $i=0,1,2,..,n$. De esta forma el punto de la tangente que corta al eje $x$ representa una aproximación mejorada de la raíz (ver la figura).
 
 

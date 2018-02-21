@@ -1,27 +1,33 @@
 # skills section data
-- name: Matlab/Simulink/SimMechanics
+- name: <i class="fas fa-code"></i> Matlab
   percentage: 85
 
-- name: Scilab
+- name: <i class="fab fa-linux"></i> Scilab
   percentage: 85
 
-- name: ROS/Moveit/Gazebo
+- name: <i class="fas fa-terminal"></i> ROS
   percentage: 80
 
-- name: ANSY
+- name: <i class="fas fa-terminal"></i> Moveit
+  percentage: 50
+
+- name: <i class="fas fa-terminal"></i> Gazebo
+  percentage: 50
+
+- name: <i class="fas fa-code"></i> ANSY
   percentage: 60
 
-- name: Abaqus
+- name: <i class="fas fa-code"></i> Abaqus
   percentage: 60
 
-- name: Latex
+- name: <i class="far fa-edit"></i> Latex
   percentage: 70
 
-- name: C++
+- name: <i class="fas fa-code"></i> C++
   percentage: 65
 
-- name: Python
+- name: <i class="fab fa-python"></i> Python
   percentage: 85
 
-- name: Linux
+- name: <i class="fab fa-linux"></i> Linux
   percentage: 85

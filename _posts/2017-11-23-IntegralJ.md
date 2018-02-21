@@ -7,8 +7,9 @@ keywords: "Fracture"
 date: 2017-11-23
 categories: [Engineering]
 tags: [Fracture Mechanics, Engineering]
-icon: fa-pencil-square-o
+icon: fa-edit
 ---
+<script defer src="/static/js/fontawesome-all.js"></script>
 
 La **integral J** es una integral de linea alrededor del frente de grieta (ver figura [1](#fig1)) y es independiente del camino de integración que se tome entorno a la grieta. La misma es de gran importancia en la Mecánica de la fractura elasto-plástica (válida también para MFEL). La integral de línea debe cerrar un circuito comprendido entre los labios superior e inferior de la grieta.
 
