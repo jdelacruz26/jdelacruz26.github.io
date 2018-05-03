@@ -21,7 +21,7 @@ icon: fa-edit
 
 Master Thesis carried out to get the Master of Science Degree in Mechanical Engineering. For further information please visit:
 
-* [Master Thesis - Universida de Sevilla](http://encore.fama.us.es/iii/encore/record/C__Rb2605864__SMME.%200538__Orightresult__X3?lang=spi&suite=cobalt) or
+* [Master Thesis - Universidad de Sevilla](http://encore.fama.us.es/iii/encore/record/C__Rb2605864__SMME.%200538__Orightresult__X3?lang=spi&suite=cobalt) or
 
 * [Master Thesis - Signed version (Config files)](https://keybase.pub/jdelacruz26/Docs/Master_Thesis)
 
