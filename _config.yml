@@ -21,7 +21,7 @@ author:  # change following line to your infomation.
   youtube_username: UCRXYxMXEZEO__c3EOBd_rcQ
   google_plus_username: +JorgeEnrique
 
-  avatar: /static/assets/img/landing/profile.png  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/pass.png  # upload your avatar at directory and edit it.
   skill_icon1:
     - name: icon-python
     - name: icon-c
