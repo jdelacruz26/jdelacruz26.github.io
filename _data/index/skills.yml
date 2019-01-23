@@ -1,33 +1,9 @@
-# skills section data
-- name: <i class="fas fa-code"></i> Matlab
-  percentage: 85
+label: Ability
+id : cs
+aspects: Matlab, Scilab, ROS, Moveit, Gazebo, ANSY, Abaqus, Latex, C++, Python, Linux
+percentage: 85, 85, 80, 50, 50, 60,60,70,65,85,85
 
-- name: <i class="fab fa-linux"></i> Scilab
-  percentage: 85
-
-- name: <i class="fas fa-terminal"></i> ROS
-  percentage: 80
-
-- name: <i class="fas fa-terminal"></i> Moveit
-  percentage: 50
-
-- name: <i class="fas fa-terminal"></i> Gazebo
-  percentage: 50
-
-- name: <i class="fas fa-code"></i> ANSY
-  percentage: 60
-
-- name: <i class="fas fa-code"></i> Abaqus
-  percentage: 60
-
-- name: <i class="far fa-edit"></i> Latex
-  percentage: 70
-
-- name: <i class="fas fa-code"></i> C++
-  percentage: 65
-
-- name: <i class="fab fa-python"></i> Python
-  percentage: 85
-
-- name: <i class="fab fa-linux"></i> Linux
-  percentage: 85
+label2: Software
+id: cs
+aspects2: Matlab, Scilab, Ansys
+percentage2: 80, 43, 60
