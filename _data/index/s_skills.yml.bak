@@ -1,0 +1,33 @@
+# skills section data
+- name: <i class="fas fa-code"></i> Matlab
+  percentage: 85
+
+- name: <i class="fab fa-linux"></i> Scilab
+  percentage: 85
+
+- name: <i class="fas fa-terminal"></i> ROS
+  percentage: 80
+
+- name: <i class="fas fa-terminal"></i> Moveit
+  percentage: 50
+
+- name: <i class="fas fa-terminal"></i> Gazebo
+  percentage: 50
+
+- name: <i class="fas fa-code"></i> ANSY
+  percentage: 60
+
+- name: <i class="fas fa-code"></i> Abaqus
+  percentage: 60
+
+- name: <i class="far fa-edit"></i> Latex
+  percentage: 70
+
+- name: <i class="fas fa-code"></i> C++
+  percentage: 65
+
+- name: <i class="fab fa-python"></i> Python
+  percentage: 85
+
+- name: <i class="fab fa-linux"></i> Linux
+  percentage: 85
