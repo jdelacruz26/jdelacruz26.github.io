@@ -1,28 +1,11 @@
-image: ruby:2.3
+image: ruby:2.1             # the script will run in Ruby 2.1 using the Docker image ruby:2.1
 
-cache:
-  paths:
-  - vendor/
-
-before_script:
-  - bundle install --path vendor
-
-pages:
-  stage: deploy
+pages:                      # the build job must be named pages
   script:
-  - bundle exec jekyll build -d public
+  - gem install jekyll      # we install jekyll
+  - jekyll build -d public/ # we tell jekyll to build the site for us
   artifacts:
     paths:
-    - public
+    - public                # this is where the site will live and the Runner uploads it in GitLab
   only:
-  - master
-
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
+  - master 
