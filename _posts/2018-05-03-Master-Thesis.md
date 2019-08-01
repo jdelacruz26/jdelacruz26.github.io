@@ -6,8 +6,8 @@ desc: "Master Thesis of Mechanical Engineering"
 keywords: "Aeronautic, Deform3D, drilling"
 date: 2018-05-03
 categories: [Engineering]
-tags: [blog, Thesis]
-icon: fa-code
+tags: [blog, Thesis, drilling, Aeronautic, Numerical, Deform3D]
+icon: fa-edit
 ---
 <style type="text/css">
   .gist {width:650px !important;}

@@ -4,7 +4,7 @@ https://keybase.io/jdelacruz26
 
 I hereby claim:
 
-  * I am an admin of https://jdelacruz26.github.io
+  * I am an admin of https://jorge-enrique.gitlab.io
   * I am jdelacruz26 (https://keybase.io/jdelacruz26) on keybase.
   * I have a public key ASD4PAQaTi3mUMvmmTkMppNlBK27aSDq_utxwV4rqKurdQo
 
@@ -26,7 +26,7 @@ To do so, I am signing this object:
       "seqno": 1614815
     },
     "service": {
-      "hostname": "jdelacruz26.github.io",
+      "hostname": "jorge-enrique.gitlab.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",
